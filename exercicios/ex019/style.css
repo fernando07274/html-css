@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body{
+  background-color: #5EDB60
+ }
+main{
+  border-radius: 10px;
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  padding: 5px;
+  box-shadow: 5px 5px 10px #368038;
+ }
+h1{
+  color: #2F6D30
+ }
+h2{
+  color: #3D8F3F
+ }
+h1#principal{
+  text-align: center;
+  background-color: #3b8a3c;
+  color: white;
+ }
+.basico{
+  color: #3FE273;
+}
+.intermediario{
+  color: #dfe23f;
+}
+.avancado{
+  color: #e23f3f;
+}
+.destaque{
+  background-color: #dfe23fc2;
+}

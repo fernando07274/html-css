@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>groupping tags</title>
+    <style>
+        body{
+            background-color: rgb(59, 59, 59);
+        }
+        body > footer{
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            margin: 10px;
+        }
+        a{
+            color: red;
+            font-weight: bold;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.315);
+            border-radius: 10px 0px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.330);
+            margin: 10px;
+        }
+        article > aside{
+            background-color: rgb(163, 163, 163);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-color: white;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>assuntos: esportes politicas tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>titulo1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam repudiandae omnis incidunt beatae aliquam quas explicabo rerum nam laborum iste unde possimus cumque eligendi consectetur, voluptate eum repellat quae sunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, hic dolor, id quibusdam animi soluta voluptatum quisquam molestiae sunt omnis laudantium magnam assumenda commodi blanditiis consequatur quam. Obcaecati, quibusdam ullam?</p>
+            </article>
+            <article>
+                <h2>titulo2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus illum ipsa culpa ea et natus error rerum doloremque nam placeat adipisci nobis blanditiis eos beatae est, modi impedit cumque!</p>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvido por fernando</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
